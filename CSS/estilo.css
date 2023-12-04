@@ -77,6 +77,11 @@ h5{
     color: goldenrod;
 }
 
+.subir{
+    text-decoration: none;
+    color: goldenrod;
+}
+
 p{
     color: white;
     padding: 20px;
@@ -161,4 +166,8 @@ footer{
     background-color: black;
     color: goldenrod;
     border: solid 1px goldenrod;
+}
+
+.menuBurguer{
+    color: goldenrod;
 }
