@@ -1,173 +1,162 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(0, 0, 0);
-    color: white;
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
 }
-
+body header h1 {
+  color: white;
+  text-align: center;
+  margin: 2rem;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  font-family: "Vast Shadow", serif;
+  margin: 0;
+}
 .menu{
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-    font-size: 2rem;
-    margin: 2rem;
-    background-color: black;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  font-size: 2rem;
+  margin: 2rem;
+  background-color: black;
 }
 
 .menu li {
-    display: inline-block;
-    text-decoration-line: none;
+  display: inline-block;
+  text-decoration-line: none;
 }
 
 .menu li a{
-    padding: 20px;
-    margin: 10px;
-    text-decoration: none;
-    color: white;
+  padding: 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
 }
 
 .menu li a:hover{
-    color: goldenrod;
+  color: goldenrod;
 }
-
-h1{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin: 2rem;
-    font-weight: normal;
-    font-size: 2.5rem;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Vast Shadow', serif;
-    margin: 0;
-}
-    
-h2{
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Vast Shadow', serif;
-}
-
-
-h3{
-    color: goldenrod;
-    text-align: center;
-    font-weight: normal;
-    font-size: 2.5rem;
-    top: 0px;
-    height: 100px;
-    background-color: black;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Vast Shadow', serif;
-    margin: 0;
-    position: sticky;
-}
-
-h4{
-    color: white;
-    text-decoration: none;
-}
-
-
-h5{
-    text-decoration: none;
-    color: goldenrod;
-}
-
-.subir{
-    text-decoration: none;
-    color: goldenrod;
-}
-
-p{
-    color: white;
-    padding: 20px;
-    line-height: 1.5;
-    font-size: 1.2rem;
-    font-family: 'Playfair Display', serif;
-}
-
-.redes{
-    text-decoration: none;
-    text-align: center;
-    font-size: 1rem;
-    margin: 2rem;
-    background-color: black;
-    margin: 0;
-}
-
-.redes a{
-    padding: 20px;
-    margin: 10px;
-    text-decoration: none;
-    color: white;
-    border-radius: 50%;
-}
-
-.imagen1{
-    width: 100%;
-    height: 100%;
-    color: white;
-    padding: 10px;
-}
-
-.equipos{
-    outline: 3px solid white;
-}
-
-.cuadrovideo1{
-    padding: 5px;
-    outline: 1px solid white;
-    color: white;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    opacity: 0.5;
-}
-
-.cuadrovideo1:hover{
-    opacity: 1;
-}
-
-.imgpag2{
-    padding: 5px;
-    width: 100%;
-    height: 360px 100%;
-    color: white;
-    margin: 1px;
-    outline: 1px solid white;
-    opacity: 0.5;
-}
-.imgpag2:hover{
-    opacity: 1;
-}
-
-footer{
-    background-color: black;
-}
-
-.formulario{
-    border: 500px auto;
-    padding: 10px;
-    text-align:justify;
-    color: goldenrod;
-    font-family: 'Playfair Display', serif;
-    font-family: 'Vast Shadow', serif;
-}
-
-.botonFormulario{
-    background-color: goldenrod;
-}
-
-.botonFormulario:hover{
-    background-color: black;
-    color: goldenrod;
-    border: solid 1px goldenrod;
-}
-
 .menuBurguer{
-    color: goldenrod;
+  color: goldenrod;
 }
+
+body main h3 {
+  color: goldenrod;
+  text-align: center;
+  font-weight: normal;
+  font-size: 2.5rem;
+  top: 0px;
+  height: 100px;
+  background-color: rgb(0, 0, 0);
+  font-family: "Playfair Display", serif;
+  font-family: "Vast Shadow", serif;
+  margin: 0;
+  position: sticky;
+}
+body main p {
+  color: white;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family: "Playfair Display", serif;
+}
+body main img {
+  width: 100%;
+  height: 100%;
+  color: white;
+  padding: 5px;
+  outline: 1px solid white;
+}
+body main div div h2 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-family: "Vast Shadow", serif;
+}
+body main div div div h4 {
+  color: white;
+  text-decoration: none;
+}
+body main div div div div iframe {
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+body main div div div div div {
+  width: 100%;
+  height: 360px 100%;
+  color: white;
+  margin: 1px;
+  opacity: 0.5;
+}
+body main div div div div div:hover {
+  opacity: 1;
+}
+body main div div div div div iframe {
+  outline: 1px solid white;
+  color: white;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+body main div div div div div img {
+  outline: 1px solid white;
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+.imgpag2{
+  padding: 5px;
+  width: 100%;
+  height: 360px 100%;
+  color: white;
+  margin: 1px;
+  outline: 1px solid white;
+  opacity: 0.5;
+}
+body main div form {
+  border: 500px auto;
+  padding: 10px;
+  text-align: justify;
+  color: goldenrod;
+  font-family: "Playfair Display", serif;
+  font-family: "Vast Shadow", serif;
+}
+.botonFormulario{
+  background-color: goldenrod;
+}
+.botonFormulario:hover{
+  background-color: black;
+  color: goldenrod;
+  border: solid 1px goldenrod;
+}
+footer div {
+  text-decoration: none;
+  text-align: center;
+  font-size: 1rem;
+  margin: 2rem;
+  background-color: black;
+  margin: 0;
+}
+footer div a {
+  padding: 20px;
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 50%;
+}
+footer h5 {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+
+/*# sourceMappingURL=estilo.css.map */
