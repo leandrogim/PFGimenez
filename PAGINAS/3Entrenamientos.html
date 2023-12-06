@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../IMAGENES/blanca.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!--Link a la libreria AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--Link al estilo propio-->
     <link rel="stylesheet" href="../CSS/estilo.css">
     <title>Ejercicios - Santa Voley</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -59,7 +64,7 @@
       <div class="row">
         <div class="col-md-6"><h2>Ejercicios Playa</h2>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/IJxD-dtJ5SU?si=IuFBg4pFtEz6Qbpw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -71,7 +76,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/1-2HIgqvWoM?si=uCbAJPmbSrs2NtKw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -83,7 +88,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/-68wAXogjuk?si=1dnAtSzk-iyJs_ON" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -95,7 +100,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/wDEi8teIGag?si=Z1PZcz9OGqz3Nmp6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -110,7 +115,7 @@
         <br>
         <div class="col-md-6 col-s-12"><h2>Ejercicios Indoor</h2>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/dVniw94LbAs?si=leneG97uZ7JcEq7P&amp;start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -122,7 +127,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/PwBsJxHFz98?si=Q7_bhUW7FOX1vqKG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -134,7 +139,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/lqjvzah6O5M?si=D9zpmLIU7kyZnwnp&amp;start=16" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -146,7 +151,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="col">
+            <div class="col" data-aos="flip-left">
               <iframe class="imgpag2" width="560" height="315" src="https://www.youtube.com/embed/92pGho5Y9Ac?si=kOvdAWFOuEGjaEsa&amp;start=35" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div class="col imgpag2 text-center">
@@ -162,6 +167,8 @@
     </div>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script> AOS.init({   easing: 'ease-out-back',duration: 2000});</script>
   <br> 
 </body>
 <footer>
