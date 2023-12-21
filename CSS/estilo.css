@@ -5,158 +5,173 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
 }
 body header h1 {
-  color: white;
+  color: #ffffff;
   text-align: center;
   margin: 2rem;
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: "Playfair Display", serif;
   font-family: "Vast Shadow", serif;
   margin: 0;
 }
-.menu{
+body header .menu .custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 255, 255, 0.8)' stroke-width='2.5' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+body header .menu .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+body header .menu .menu-principal {
   width: 100%;
-  list-style-type: none;
+  justify-content: space-evenly;
+  font-size: 1.7rem;
   text-align: center;
-  font-size: 2rem;
-  margin: 2rem;
-  background-color: black;
+}
+body header .menu .menu-principal li a {
+  color: #ffffff;
+}
+body header .menu .menu-principal li a:hover {
+  color: #daa520;
 }
 
-.menu li {
-  display: inline-block;
-  text-decoration-line: none;
+main #myTabContent div .tutorial {
+  height: 480px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
-
-.menu li a{
-  padding: 20px;
-  margin: 10px;
-  text-decoration: none;
-  color: white;
+main #myTabContent div .tutorial:nth-child(odd) {
+  background-color: #1d1d1f;
 }
-
-.menu li a:hover{
-  color: goldenrod;
+main #myTabContent div .tutorial:nth-child(even) {
+  background-color: #313135;
 }
-.menuBurguer{
-  color: goldenrod;
+main #myTabContent div .tutorial .formato-video {
+  display: flex;
+  justify-content: center;
+  opacity: 0.5;
 }
-
-body main h3 {
-  color: goldenrod;
+main #myTabContent div .tutorial .formato-video:hover {
+  opacity: 1;
+}
+main #myTabContent div .tutorial .texto-video {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  opacity: 0.5;
+}
+main #myTabContent div .tutorial .texto-video:hover {
+  opacity: 1;
+}
+main #myTabContent div .tutorial .img-partidos {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+main .ejercicios-tabs {
+  justify-content: center;
+  background-color: #313135;
+  border: none;
+}
+main .ejercicios-tabs .nav-item .nav-link.active {
+  color: #daa520;
+  opacity: 1;
+  background: none;
+  border: none;
+  border-bottom: 3px solid #daa520;
+}
+main .ejercicios-tabs .nav-item .nav-link {
+  border: none;
+  opacity: 0.5;
+  color: #ffffff;
+}
+main .ejercicios-tabs .nav-item .nav-link h2 {
+  font-family: "Playfair Display", serif;
+  font-family: "Vast Shadow", serif;
+}
+main h3 {
+  color: #daa520;
   text-align: center;
   font-weight: normal;
   font-size: 2.5rem;
   top: 0px;
   height: 100px;
-  background-color: rgb(0, 0, 0);
+  background-color: #000000;
   font-family: "Playfair Display", serif;
   font-family: "Vast Shadow", serif;
   margin: 0;
+  padding: 15px 0;
   position: sticky;
+  z-index: 3;
 }
-body main p {
-  color: white;
+main p {
+  color: #ffffff;
   padding: 20px;
   line-height: 1.5;
   font-size: 1.2rem;
   font-family: "Playfair Display", serif;
 }
-body main img {
+main .imagenes {
   width: 100%;
-  height: 100%;
-  color: white;
-  padding: 5px;
-  outline: 1px solid white;
+  height: 350px;
+  color: #ffffff;
+  padding: 0;
 }
-body main div div h2 {
+main div div h2 {
   text-align: center;
   font-family: "Playfair Display", serif;
   font-family: "Vast Shadow", serif;
 }
-body main div div div h4 {
-  color: white;
+main div div div h4 {
+  color: #ffffff;
   text-decoration: none;
 }
-body main div div div div iframe {
-  color: white;
+main div form {
   width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.5;
-}
-body main div div div div div {
-  width: 100%;
-  height: 360px 100%;
-  color: white;
-  margin: 1px;
-  opacity: 0.5;
-}
-body main div div div div div:hover {
-  opacity: 1;
-}
-body main div div div div div iframe {
-  outline: 1px solid white;
-  color: white;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  opacity: 0.5;
-}
-body main div div div div div img {
-  outline: 1px solid white;
-  color: white;
-  width: 100%;
-  height: 100%;
-}
-.imgpag2{
-  padding: 5px;
-  width: 100%;
-  height: 360px 100%;
-  color: white;
-  margin: 1px;
-  outline: 1px solid white;
-  opacity: 0.5;
-}
-body main div form {
-  border: 500px auto;
+  max-width: 600px;
+  margin: 0 auto;
+  border: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
-  text-align: justify;
-  color: goldenrod;
+  text-align: start;
+  color: #daa520;
   font-family: "Playfair Display", serif;
   font-family: "Vast Shadow", serif;
 }
-.botonFormulario{
-  background-color: goldenrod;
+main div form .botonFormulario {
+  background-color: #daa520;
 }
-.botonFormulario:hover{
-  background-color: black;
-  color: goldenrod;
-  border: solid 1px goldenrod;
+main div form .botonFormulario:hover {
+  background-color: #000000;
+  color: #daa520;
+  border: 1px solid #daa520;
 }
+
 footer div {
   text-decoration: none;
   text-align: center;
   font-size: 1rem;
   margin: 2rem;
-  background-color: black;
+  background-color: #000000;
   margin: 0;
 }
 footer div a {
   padding: 20px;
   margin: 10px;
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   border-radius: 50%;
 }
 footer h5 {
   text-decoration: none;
-  color: goldenrod;
+  color: #daa520;
 }
-
 
 /*# sourceMappingURL=estilo.css.map */
