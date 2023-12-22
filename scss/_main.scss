@@ -2,7 +2,7 @@ main {
     #myTabContent{
       div{
         .tutorial{
-          height: 480px;
+          min-height: 480px;
           display: flex;
           align-items: center;
           flex-wrap: wrap;
@@ -123,7 +123,6 @@ main {
       }
       form{
         width: 100%;
-        max-width: 600px;
         margin: 0 auto;
         border: auto;
         display: flex;
@@ -144,6 +143,14 @@ main {
             }
         }
       }
+    }
+    .ir-arriba{
+      background: none;
+      display: block;
+      position: fixed;
+      left: 15px;
+      bottom: 30px;
+      color: $dorado;
 
     }
 }

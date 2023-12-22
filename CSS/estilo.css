@@ -39,7 +39,7 @@ body header .menu .menu-principal li a:hover {
 }
 
 main #myTabContent div .tutorial {
-  height: 480px;
+  min-height: 480px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -141,7 +141,6 @@ main div div div h4 {
 }
 main div form {
   width: 100%;
-  max-width: 600px;
   margin: 0 auto;
   border: auto;
   display: flex;
@@ -161,6 +160,14 @@ main div form .botonFormulario:hover {
   background-color: #000000;
   color: #daa520;
   border: 1px solid #daa520;
+}
+main .ir-arriba {
+  background: none;
+  display: block;
+  position: fixed;
+  left: 15px;
+  bottom: 30px;
+  color: #daa520;
 }
 
 footer div {
